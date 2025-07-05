@@ -15,9 +15,6 @@ spec:
       containers:
         - name: register-app
           image: khaledkhaled/register-app-pipeline:1.0.0-4
-          resources:
-            limits:
-              memory: "256Mi"
-              cpu: "500m"
+
           ports:
             - containerPort: 8080
